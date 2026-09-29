@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.trip1/mcp",
+  "description": "Book hotels over MCP. Pay over x402. 3M+ properties in 200+ countries, USDC on Base.",
+  "status": "active",
+  "version": "1.0.1",
+  "websiteUrl": "https://trip1.com/agents",
+  "repository": {
+    "url": "https://github.com/trivial-corp/trip1-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trip1.com/api/mcp"
+    }
+  ]
+}
